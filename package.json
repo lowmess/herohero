@@ -1,6 +1,6 @@
 {
   "name": "herohero",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate social media hero images from HTML",
   "main": "dist/herohero.js",
   "repository": "https://github.com/lowmess/herohero",
