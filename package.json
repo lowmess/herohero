@@ -1,0 +1,32 @@
+{
+  "name": "herohero",
+  "version": "0.0.0",
+  "description": "generate social media hero images from HTML",
+  "main": "dist/herohero.js",
+  "repository": "https://github.com/lowmess/herohero",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "author": "Alec Lomas <alec@lowmess.com>",
+  "license": "MIT",
+  "bin": "./herohero.js",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^0.13.0",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-lowmess": "^1.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "prettier": "^1.8.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
