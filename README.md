@@ -16,7 +16,7 @@ herohero <path> [options]
 Generate social media hero images from HTML files
 
 Positionals:
-  path, p  Relative path to an HTML file to capture                [string]
+  path, p  Relative path to an HTML file to capture                     [string]
 
 Options:
   --version     Show version number                                    [boolean]
