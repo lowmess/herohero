@@ -56,8 +56,10 @@ const networks = [
 ]
 
 mkdirp(args.output, err => {
-  if (err) console.error(err)
-  process.exit()
+  if (err) {
+    console.error(err)
+    process.exit()
+  }
 })
 
 networks.forEach(network => {
