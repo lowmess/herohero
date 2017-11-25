@@ -10,7 +10,7 @@ const args = yargs
     // eslint-disable-line
     yargs.positional('path', {
       alias: 'p',
-      describe: 'The relative path to the HTML file to capture',
+      describe: 'Relative path to an HTML file to capture',
       type: 'string',
     })
   })

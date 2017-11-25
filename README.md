@@ -16,7 +16,7 @@ herohero <path> [options]
 Generate social media hero images from HTML files
 
 Positionals:
-  path, p  The relative path to the HTML file to capture                [string]
+  path, p  Relative path to an HTML file to capture                [string]
 
 Options:
   --version     Show version number                                    [boolean]
@@ -24,7 +24,7 @@ Options:
   --help        Show help                                              [boolean]
 ```
 
-## Ummm... why tho
+## Ummm... y tho
 
-idk sometimes I find it easier or quicker to design simple things in the browser. simple things like social media hero
-images, for example
+idk sometimes I find it easier or quicker to design simple things in the browser. Simple things like social media hero
+images, for example.
