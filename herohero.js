@@ -76,8 +76,7 @@ networks.forEach(network => {
     await page.screenshot({
       path: `${path.resolve(process.cwd(), args.output)}/${network.name}.png`,
     })
+    console.log(`✔ ${network.name} image saved to "${args.output}/${network.name}.png"`)
     browser.close()
   })()
 })
-
-console.log(`Hero images are available at ${args.output}`)
