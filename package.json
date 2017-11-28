@@ -5,7 +5,7 @@
   "main": "dist/herohero.js",
   "repository": "https://github.com/lowmess/herohero",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=7.6.0"
   },
   "author": "Alec Lomas <alec@lowmess.com>",
   "license": "MIT",
