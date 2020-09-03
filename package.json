@@ -15,7 +15,7 @@
   "bin": "./herohero.js",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "puppeteer": "^0.13.0",
+    "puppeteer": "^1.13.0",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
